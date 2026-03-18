@@ -49,7 +49,7 @@ function resetTimer() {
 
     isRunning = false;
     isWorkMode = true;
-    timeLeft = 25 * 60;
+    timeLeft = 5 //25 * 60;
     sessions = 0;
 
     document.querySelector("#sessions").textContent = sessions;
@@ -119,7 +119,11 @@ function updateDisplay() {
 
 // Plays a sound when a session ends (placeholder)
 function playSound() {
-    // Example: new Audio("ding.mp3").play();
+    const sound = new Audio("service-bell-impatient-dinging-jam-fx-2-2-00-04.mp3");
+    sound.volume = 0.5; // 0.0..1.0
+    sound.play().catch((err) => {
+        console.warn("Autoplay blocked, user interaction required", err);
+    });
 }
 
 
