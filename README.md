@@ -10,7 +10,7 @@
   <img src="demo.gif" alt="Pomodoro Demo" width="600">
 </p>
 
-🔗 [Watch live demo](https://stephane-sonkin.github.io/POMODORO-TIMER/)
+🔗 [Try](https://stephane-sonkin.github.io/POMODORO-TIMER/)
 
 ---
 
@@ -45,6 +45,7 @@
 
 ## 📁 Project Structure
 
+```
 /pomodoro-timer
 ├── index.html
 ├── style.css
@@ -53,6 +54,7 @@
 ├── work_mode.png
 ├── pause_mode.png
 └── README.md
+```
 
 ---
 
