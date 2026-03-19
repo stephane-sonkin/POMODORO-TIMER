@@ -49,7 +49,7 @@ function resetTimer() {
 
     isRunning = false;
     isWorkMode = true;
-    timeLeft = 5 //25 * 60;
+    timeLeft = 25 * 60;
     sessions = 0;
 
     document.querySelector("#sessions").textContent = sessions;
